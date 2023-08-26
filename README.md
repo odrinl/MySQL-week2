@@ -1,3 +1,6 @@
+
+![ERD Diagram](https://github.com/odrinl/MySQL-week2/blob/main/drawSQL-userdb.png) 
+
 # Prep exercise week 2
 
 As a preparation step for the upcoming Q&A, you need to work on the following exercise, which is based on the prep exercise of the previous week.
