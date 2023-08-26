@@ -25,7 +25,7 @@ connection.query(
   JOIN categories AS c ON rc.CategoryID = c.id
   JOIN recipe_ingredients AS ri ON r.id = ri.RecipeID
   JOIN ingredients AS i ON ri.IngredientID = i.id
-  WHERE c.CategoryName = 'Vegetarian' AND i.IngredientName = 'Potatos';
+  WHERE c.CategoryName = 'Vegetarian' AND i.IngredientName = 'Potatoes';
   `,
   (err, results) => {
     if (err) throw err;
